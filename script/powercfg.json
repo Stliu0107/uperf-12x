@@ -1,0 +1,13 @@
+{
+    "name": "Uperf-12X",
+    "author": "12X",
+    "version": "2026.04.18.21",
+    "versionCode": 2026041821,
+    "features": {
+        "strict": true,
+        "pedestal": true
+    },
+    "module": "uperf,sfanalysis",
+    "state": "/sdcard/Android/yc/uperf/cur_powermode.txt",
+    "entry": "/data/powercfg.sh"
+}
