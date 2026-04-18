@@ -1,0 +1,25 @@
+uperf-12X
+
+THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
+Do Not Translate or Localize
+
+This project is a derivative of [yc9559/uperf](https://github.com/yc9559/uperf) and includes third-party components from the upstream project.
+
+Upstream project references:
+- uperf: https://github.com/yc9559/uperf
+- surfaceflinger-analysis: https://github.com/yc9559/surfaceflinger-analysis
+- android-busybox-ndk: https://github.com/osm0sis/android-busybox-ndk
+- jpcre2: https://github.com/jpcre2/jpcre2
+- nlohmann/json: https://github.com/nlohmann/json
+- pcre2: https://github.com/PhilipHazel/pcre2
+- scnlib: https://github.com/eliaskosunen/scnlib
+- spdlog: https://github.com/gabime/spdlog
+
+Licensing:
+- The derivative scripts and configuration in this repo are distributed under Apache License 2.0 unless noted otherwise.
+- Third-party components remain under their original licenses.
+- BusyBox binary (when bundled in module packages) is GPLv2 under upstream android-busybox-ndk terms.
+
+For full modification traceability and attribution, see:
+- REFERENCES_AND_MODIFICATIONS_12X.md
+- LICENSE
