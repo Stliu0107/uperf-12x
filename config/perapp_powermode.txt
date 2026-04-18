@@ -1,0 +1,27 @@
+# Per-app dynamic power mode rule
+# '-' means offscreen rule
+# '*' means default rule
+
+# Video apps: default to powersave policy, thread scheduler keeps playback smooth.
+tv.danmaku.bili powersave
+com.google.android.youtube powersave
+com.google.android.apps.youtube.music powersave
+com.qiyi.video powersave
+com.qiyi.video.pad powersave
+com.tencent.qqlive powersave
+com.youku.phone powersave
+com.cmcc.cmvideo powersave
+com.netflix.mediaclient powersave
+com.amazon.avod.thirdpartyclient powersave
+com.disney.disneyplus powersave
+com.hulu.plus powersave
+com.mxtech.videoplayer.ad powersave
+com.mxtech.videoplayer.pro powersave
+com.ss.android.article.video powersave
+com.ss.android.ugc.aweme powersave
+com.ss.android.ugc.aweme.lite powersave
+com.smile.gifmaker powersave
+com.kuaishou.nebula powersave
+
+- powersave
+* balance
