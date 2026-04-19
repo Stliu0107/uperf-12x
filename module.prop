@@ -1,6 +1,6 @@
 id=uperf
 name=Uperf-12X
-version=2026.04.18.21
-versionCode=2026041821
+version=2026.04.19.14
+versionCode=2026041914
 author=12X
 description=12X 8EG5 frame-target closed-loop scheduler with tail-latency/power joint score.
