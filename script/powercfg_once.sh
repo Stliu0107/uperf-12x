@@ -138,8 +138,9 @@ disable_kernel_boost() {
     done
     lock_val "6 1" /proc/ppm/policy_status
     lock_val "enable 0" /proc/perfmgr/tchbst/user/usrtch
-    lock "/proc/ppm/policy/*"
-    lock "/proc/ppm/*"
+    for f in /proc/ppm/policy/* /proc/ppm/*; do
+        lock "$f"
+    done
     lock_val "0" "/sys/module/mtk_fpsgo/parameters/boost_affinity*"
     lock_val "0" "/sys/module/fbt_cpu/parameters/boost_affinity*"
     lock_val "9999000" "/sys/kernel/fpsgo/fbt/limit_*"
